@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
     for(t=1,i=1;t<=n;t++,i+=2) //i=i+2
     {
-        result+=i; //result=result+i;
+        result+=i; //result=result+i
     }
     printf("result is %d",result);
   return 0;

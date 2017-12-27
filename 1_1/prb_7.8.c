@@ -1,4 +1,4 @@
-/*prb 7.8 -> 2.1+5.3+8.5.....upto nth term */
+/*prb 7.8 -> 2.1+5.3+8.5......upto nth term */
 #include <stdio.h>
 
 int main()

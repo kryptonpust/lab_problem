@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     for (t = 1, k = 3, i = 1; t <= n; t++, i += 2, k += 2) {
         int x, z, j;
-        for (x = 7, z = 1, j = 1; z <= t; z++, x += 2) { //using another loop to calculate series ..7+..7.9+..7.9.11+....
+        for (x = 7, z = 1, j = 1; z <= t; z++, x += 2) { //using another loop to calculate series ..7+..7.9+..7.9.11+.....
             j *= x;
         }
         result += (i * k * j); //result=result+(i*k*j)

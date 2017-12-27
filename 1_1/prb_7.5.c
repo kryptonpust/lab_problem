@@ -1,4 +1,4 @@
-/*prb 7.5 -> 2+5+8+11.....upto nth term */
+/*prb 7.5 -> 2+5+8+11......upto nth term */
 #include <stdio.h>
 
 int main()
@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
     for(t=1,i=2;t<=n;t++,i+=3) //i=i+3
     {
-        result+=i; //result=result+i;
+        result+=i; //result=result+i
     }
     printf("result is %d",result);
   return 0;

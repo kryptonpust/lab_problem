@@ -1,5 +1,4 @@
-Make sure you are committing in right folder
-Make sure problem name are following below template
+Make sure you are committing in right folder and problem names are following below template
 
 problem name template:
 

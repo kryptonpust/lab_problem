@@ -15,7 +15,7 @@ int main() {
     int i = 0;
     while (!feof(stdin) && i < 5) {
         printf("send EOF to terminate\n");
-        printf("Enter (student_name student_roll student_mark):");
+        printf("Enter (student_name student_roll student_mark): ");
         scanf("%s %d %f", student[i].name, &student[i].roll, &student[i].mark);
         i++;
     }

@@ -1,4 +1,4 @@
-/* delete a number from array*/
+/* search a number from array*/
 #include <stdio.h>
 
 int main() {

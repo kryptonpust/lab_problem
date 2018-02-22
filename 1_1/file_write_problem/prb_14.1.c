@@ -6,7 +6,7 @@ write 1 to 10 in a file*/
 int main() {
 
     FILE *fp;
-    fp = fopen("Demo.txt", "w");
+    fp = fopen("demo.txt", "w");
     if (fp == NULL) {
         printf("Error occurred");
         return 0;
@@ -17,7 +17,7 @@ int main() {
 
     }
     fclose(fp);
-    fp = fopen("Demo.txt", "r");
+    fp = fopen("demo.txt", "r");
     for (int i = 1; i <= 10; ++i) {
         printf("%d", getw(fp));
     }

@@ -11,7 +11,7 @@ write pyramid
 int main() {
 
     FILE *fp;
-    fp = fopen("Demo.txt", "w");
+    fp = fopen("demo.txt", "w");
     if (fp == NULL) {
         printf("Error occurred");
         return 0;
@@ -24,7 +24,7 @@ int main() {
         fprintf(fp, "\n");
     }
     fclose(fp);
-    fp = fopen("Demo.txt", "r");
+    fp = fopen("demo.txt", "r");
     for (int i = 1; i <= 5; i++) {
         for (int j = 1; j <= i; j++) {
             printf("%d", getw(fp));

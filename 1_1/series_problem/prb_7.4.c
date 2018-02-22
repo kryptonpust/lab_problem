@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i,n,t,result=0; //using variable t to calculate term and varaible i to genarating series
+    int i, n, t, result = 0; //using variable t to calculate term and variable i to generating series
     scanf("%d",&n);
     for(t=1,i=4;t<=n;t++,i+=8) //i=i+8
     {

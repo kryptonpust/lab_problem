@@ -2,7 +2,6 @@
 read and display factorial*/
 
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     long long int i = 1, *a = &i;

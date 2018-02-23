@@ -1,5 +1,5 @@
 /*
-leap yaer*/
+leap year*/
 
 #include <stdio.h>
 

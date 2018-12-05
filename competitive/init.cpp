@@ -17,7 +17,7 @@ int main()
     }
     else
     {
-        cerr << "directory created failed";
+        cerr << "directory creation failed";
     }
     return 0;
     //g++ init.cpp -o init

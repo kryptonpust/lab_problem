@@ -3,7 +3,7 @@ import os
 import sys
 import argparse
 __version__ = "1.0"
-parser = argparse.ArgumentParser(description='file structure for compitive programming')
+parser = argparse.ArgumentParser(description='generate file structure for competitive programming(personal)')
 
 parser.add_argument('--t',metavar='c/cpp/java/py',dest='type',default='cpp',help='file type c/cpp/java/py')
 parser.add_argument('foldername',metavar='foldername',help='Problem name')
